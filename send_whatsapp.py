@@ -33,7 +33,7 @@ def send(message):
         "type": "template",
         "template": {
             "name": template,
-            "language": {"code": "en"},
+            "language": {"code": "en_US"},
             "components": [
                 {"type": "body", "parameters": [{"type": "text", "text": message}]}
             ],
